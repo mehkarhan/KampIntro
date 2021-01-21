@@ -7,6 +7,7 @@ namespace GenericsIntro
     class MyList<T>  // T bana uygun type ver anlamında ve blogun içini biçimlendireceğiz.
     {
         T[] items;
+        
         public MyList()  // ctor  --> Constructor   başlangıçta new dediğimizde 0 elemanlı array oluşuyor
         {
             items = new T[0];
